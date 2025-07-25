@@ -23,6 +23,10 @@
 **🎯Special role:** Go always starts running from the main() function in the main package.
 
 
+
+
+## Documentation Part 
+
 ## Component           Description
 **Variable**           Variable is a box or container, which is contain value(name, text and number) inside. 
 
@@ -41,3 +45,17 @@ Data types define what kind of value a variable can hold.
 Common types: **string, int, float64, bool**
 Go is strongly typed, so type matters!
 You can use var or := when declaring variables.
+
+
+**Conditional Statement**
+A conditional statement allows your program to make decisions based on certain conditions.
+It helps the program choose what to do next depending on true or false results.
+
+**Syntex of conditional Statement**
+if condition1 {
+    // runs if condition1 is true
+} else if condition2 {
+    // runs if condition2 is true
+} else {
+    // runs if none of the above are true
+}
